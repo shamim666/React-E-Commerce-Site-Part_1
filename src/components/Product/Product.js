@@ -5,8 +5,9 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import './Product.css'
 
 const Product = (props) => {
-
+    
     const {name , img , seller ,price } = props.product
+
     const element = <FontAwesomeIcon icon={faShoppingCart} />
 
 

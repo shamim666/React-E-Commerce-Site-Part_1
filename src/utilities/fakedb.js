@@ -6,10 +6,10 @@ const addToDb = id => {
     shopping_cart[id] = 1;
   }
   else {
-    shopping_cart = JSON.parse(exists);
+    shopping_cart = JSON.parse(exists); // parsing the string into object 
     if (shopping_cart[id]) {
       const newCount = shopping_cart[id] + 1;
-      shopping_cart[id] = newCount;
+      shopping_cart[id] = newCount; // shopping_cart object properties is being updated
     }
     else {
       shopping_cart[id] = 1;

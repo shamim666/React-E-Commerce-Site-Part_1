@@ -3,3 +3,13 @@
     grid-template-columns: 1fr 3fr 1fr;
 }
 
+.search-container{
+    background-color: #0c0b0baf;
+    text-align: center;
+    line-height: 50px;
+}
+
+.search-container input{
+    line-height: 20px;
+    width: 75%;
+}
